@@ -1,3 +1,23 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +29,7 @@ body {
     line-height: 1.6;
     background-color: #f0f8ff;
     color: #333;
+    animation: fadeIn 1s ease-in;
 }
 
 .container {
