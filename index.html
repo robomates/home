@@ -43,8 +43,7 @@
     </footer>
 
     <script>
-        console.log("Checking auth...")
-        if (localStorage.getItem("accset") !== "from-regis") {
+        if (localStorage.getItem("accset") !== "false") {
           window.location.href = "https://robomates.github.io/verify-acc";
         }
     </script>
